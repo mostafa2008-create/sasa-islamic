@@ -1,0 +1,1981 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html dir='rtl' lang='ar' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+<head>
+  <meta charset='UTF-8'/>
+  <meta content='width=device-width, initial-scale=1, viewport-fit=cover' name='viewport'/>
+  <meta content='#083A2E' id='metaTheme' name='theme-color'/>
+  <title>ح&#1616;ص&#1618;ن&#1615; ال&#1618;م&#1615;س&#1618;ل&#1616;م &#8212; أذكار المسلم اليومية</title>
+
+  <!-- وسم السطح الإجباري لمنصة بلوجر -->
+  <b:skin><![CDATA[
+  /* Blogger Mandatory Skin Section */
+  ]]></b:skin>
+
+  <style>
+    /* &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; 1) المتغيرات والهوية اللونية &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; */
+    :root {
+      --gold: #D4AF37;
+      --gold-hi: #E8C96A;
+      --font-ui: &#39;Tajawal&#39;, &#39;Cairo&#39;, &#39;Almarai&#39;, &#39;Noto Sans Arabic&#39;, &#39;Segoe UI&#39;, Tahoma, sans-serif;
+      --font-quran: &#39;Amiri Quran&#39;, &#39;Amiri&#39;, &#39;Scheherazade New&#39;, &#39;Noto Naskh Arabic&#39;, &#39;Traditional Arabic&#39;, &#39;Geeza Pro&#39;, serif;
+    }
+
+    body[data-theme=&quot;dark&quot;] {
+      --bg: #0A4234;
+      --bg-deep: #062C23;
+      --card: #0E5140;
+      --card2: #0C483A;
+      --text: #F4F0E1;
+      --text-dim: #B9D4C8;
+      --gold-text: #E8C96A;
+      --line: rgba(212, 175, 55, .22);
+      --track: rgba(255, 255, 255, .14);
+      --shadow: rgba(0, 0, 0, .28);
+    }
+
+    body[data-theme=&quot;light&quot;] {
+      --bg: #F3EFE3;
+      --bg-deep: #E7E1CF;
+      --card: #FFFFFF;
+      --card2: #F1ECDC;
+      --text: #0B3B2E;
+      --text-dim: #547266;
+      --gold-text: #7C631D;
+      --line: rgba(11, 77, 60, .16);
+      --track: rgba(11, 77, 60, .13);
+      --shadow: rgba(11, 61, 46, .14);
+    }
+
+    body[data-fs=&quot;s&quot;] { --dsize: 18px }
+    body[data-fs=&quot;m&quot;] { --dsize: 21px }
+    body[data-fs=&quot;l&quot;] { --dsize: 24.5px }
+    body[data-fs=&quot;xl&quot;] { --dsize: 28px }
+
+    /* &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; 2) الأساسيات &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      font-family: var(--font-ui);
+      background: var(--bg-deep);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      transition: background .4s, color .4s;
+    }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+    }
+
+    ::selection {
+      background: var(--gold);
+      color: #083A2E;
+    }
+
+    .shell {
+      position: relative;
+      max-width: 440px;
+      margin: 0 auto;
+      min-height: 100dvh;
+      background: var(--bg);
+      box-shadow: 0 0 70px rgba(0, 0, 0, .35);
+      transition: background .4s;
+      overflow-x: hidden;
+    }
+
+    .shell::before {
+      content: &#39;&#39;;
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      opacity: .9;
+      background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;96&#39; height=&#39;96&#39; viewBox=&#39;0 0 96 96&#39;%3E%3Cg fill=&#39;none&#39; stroke=&#39;%23d4af37&#39; stroke-opacity=&#39;.06&#39;%3E%3Crect x=&#39;26&#39; y=&#39;26&#39; width=&#39;44&#39; height=&#39;44&#39;/%3E%3Crect x=&#39;26&#39; y=&#39;26&#39; width=&#39;44&#39; height=&#39;44&#39; transform=&#39;rotate(45 48 48)&#39;/%3E%3Ccircle cx=&#39;48&#39; cy=&#39;48&#39; r=&#39;5&#39;/%3E%3Cpath d=&#39;M48 0v18M48 78v18M0 48h18M78 48h18&#39;/%3E%3C/g%3E%3C/svg%3E&quot;);
+    }
+
+    .shell &gt; * {
+      position: relative;
+      z-index: 1;
+    }
+
+    /* &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; 3) الشاشات والتنق&#1617;ل &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; */
+    .screen {
+      display: none;
+      padding-bottom: 96px;
+    }
+
+    .screen.active {
+      display: block;
+      animation: scrIn .35s ease both;
+    }
+
+    @keyframes scrIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: none; }
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity .55s ease, transform .55s ease;
+    }
+
+    .reveal.in {
+      opacity: 1;
+      transform: none;
+    }
+
+    /* &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; 4) الترويسة &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; */
+    .hero {
+      position: relative;
+      text-align: center;
+      padding: 26px 18px 0;
+      overflow: hidden;
+      background: linear-gradient(165deg, #11604B 0%, #0B4D3C 55%, #083A2E 100%);
+      color: #F6F1E4;
+    }
+
+    .hero::before {
+      content: &#39;&#39;;
+      position: absolute;
+      top: -90px;
+      left: 50%;
+      width: 340px;
+      height: 260px;
+      transform: translateX(-50%);
+      border-radius: 50%;
+      background: radial-gradient(closest-side, rgba(212, 175, 55, .28), transparent 70%);
+      animation: glow 9s ease-in-out infinite alternate;
+      pointer-events: none;
+    }
+
+    @keyframes glow {
+      from { opacity: .55; transform: translateX(-50%) scale(1); }
+      to { opacity: .95; transform: translateX(-50%) scale(1.18); }
+    }
+
+    .hero-ayah {
+      font-family: var(--font-quran);
+      font-size: 14.5px;
+      line-height: 2;
+      color: var(--gold-hi);
+      max-width: 320px;
+      margin: 0 auto;
+    }
+
+    .hero-orn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin: 12px 0 6px;
+      color: var(--gold);
+    }
+
+    .hero-orn::before,
+    .hero-orn::after {
+      content: &#39;&#39;;
+      height: 1px;
+      width: 64px;
+      background: linear-gradient(90deg, transparent, var(--gold));
+    }
+
+    .hero-orn::after {
+      background: linear-gradient(90deg, var(--gold), transparent);
+    }
+
+    .hero h1 {
+      font-family: var(--font-quran);
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 1.25;
+      text-shadow: 0 2px 18px rgba(0, 0, 0, .3);
+    }
+
+    .hero h1 span { color: var(--gold-hi); }
+
+    .hero-sub {
+      font-size: 12.5px;
+      color: #CFE3D8;
+      margin-top: 4px;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 7px;
+      margin: 16px 0 14px;
+    }
+
+    .hchip {
+      font-size: 11.5px;
+      font-weight: 700;
+      padding: 6px 12px;
+      border-radius: 99px;
+      background: rgba(255, 255, 255, .09);
+      border: 1px solid rgba(212, 175, 55, .35);
+      color: #EFE9D6;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .hchip.gold {
+      background: rgba(212, 175, 55, .18);
+      color: var(--gold-hi);
+    }
+
+    .search-pill {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      max-width: 330px;
+      margin: 0 auto 26px;
+      background: rgba(255, 255, 255, .1);
+      border: 1px solid rgba(212, 175, 55, .35);
+      border-radius: 99px;
+      padding: 12px 16px;
+      color: #BFD8CC;
+      font-size: 13.5px;
+      transition: background .25s, border-color .25s;
+    }
+
+    .search-pill:active { background: rgba(255, 255, 255, .16); }
+    .search-pill svg { flex: none; }
+
+    .hero-edge {
+      display: block;
+      width: 100%;
+      height: 16px;
+      color: var(--bg);
+      margin-bottom: -1px;
+    }
+
+    /* &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; 5) بطاقات الصباح والمساء &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; */
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: -6px 16px 0;
+    }
+
+    .feature {
+      position: relative;
+      text-align: right;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 14px 14px;
+      box-shadow: 0 10px 26px var(--shadow);
+      transition: transform .2s, border-color .3s, box-shadow .3s;
+      color: var(--text);
+    }
+
+    .feature:active { transform: scale(.965); }
+
+    .feature .ficon {
+      width: 46px;
+      height: 46px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 10px;
+      background: linear-gradient(145deg, rgba(212, 175, 55, .16), rgba(212, 175, 55, .05));
+      border: 1px solid var(--line);
+      color: var(--gold-text);
+    }
+
+    .feature h3 {
+      font-size: 15.5px;
+      font-weight: 800;
+    }
+
+    .feature p {
+      font-size: 11.5px;
+      color: var(--text-dim);
+      margin-top: 3px;
+    }
+
+    .feature .go {
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      color: var(--gold-text);
+      opacity: .75;
+    }
+
+    .feature.now {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 1px var(--gold), 0 12px 30px var(--shadow);
+    }
+
+    .badge-now {
+      position: absolute;
+      top: -11px;
+      inset-inline-start: 12px;
+      background: linear-gradient(135deg, var(--gold), var(--gold-hi));
+      color: #083A2E;
+      font-size: 10px;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 99px;
+      animation: softPulse 3s ease-in-out infinite;
+    }
+
+    @keyframes softPulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: .7; }
+    }
+
+    /* &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; 6) شبكة الفئات &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; */
+    .sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 28px 18px 13px;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .4px;
+      color: var(--gold-text);
+    }
+
+    .sec-title::before,
+    .sec-title::after {
+      content: &#39;&#39;;
+      height: 1px;
+      flex: 1;
+      background: var(--line);
+    }
+
+    .resume-chip {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 16px 4px;
+      width: calc(100% - 32px);
+      background: var(--card2);
+      border: 1px dashed var(--gold);
+      border-radius: 14px;
+      padding: 11px 14px;
+      color: var(--text);
+      font-size: 12.5px;
+      font-weight: 700;
+      text-align: right;
+    }
+
+    .resume-chip small {
+      display: block;
+      font-weight: 400;
+      color: var(--text-dim);
+      margin-top: 2px;
+    }
+
+    .cats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 0 16px;
+    }
+
+    .cat {
+      text-align: right;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 14px 13px;
+      box-shadow: 0 6px 18px var(--shadow);
+      color: var(--text);
+      transition: transform .2s, border-color .25s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cat::after {
+      content: &#39;&#39;;
+      position: absolute;
+      top: -14px;
+      left: -14px;
+      width: 52px;
+      height: 52px;
+      opacity: .08;
+      background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; viewBox=&#39;0 0 48 48&#39;%3E%3Cg fill=&#39;none&#39; stroke=&#39;%23d4af37&#39; stroke-width=&#39;2&#39;%3E%3Crect x=&#39;12&#39; y=&#39;12&#39; width=&#39;24&#39; height=&#39;24&#39;/%3E%3Crect x=&#39;12&#39; y=&#39;12&#39; width=&#39;24&#39; height=&#39;24&#39; transform=&#39;rotate(45 24 24)&#39;/%3E%3C/g%3E%3C/svg%3E&quot;);
+    }
+
+    .cat:active {
+      transform: scale(.96);
+      border-color: var(--gold);
+    }
+
+    .cat .cicon {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 9px;
+      background: rgba(212, 175, 55, .12);
+      color: var(--gold-text);
+      border: 1px solid var(--line);
+    }
+
+    .cat h4 {
+      font-size: 13.5px;
+      font-weight: 700;
+      line-height: 1.55;
+      min-height: 42px;
+    }
+
+    .cat .cnt {
+      display: inline-block;
+      margin-top: 8px;
+      font-size: 10.5px;
+      font-weight: 700;
+      color: var(--text-dim);
+      background: var(--card2);
+      border: 1px solid var(--line);
+      padding: 3px 9px;
+      border-radius: 99px;
+    }
+
+    /* &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; 7) شاشة عرض الذكر &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; */
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 8;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 12px;
+      background: var(--bg);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .icon-btn {
+      width: 44px;
+      height: 44px;
+      flex: none;
+      border-radius: 13px;
+      border: 1px solid var(--line);
+      background: var(--card);
+      color: var(--text);
+      display: grid;
+      place-items: center;
+      transition: .2s;
+    }
+
+    .icon-btn:active { transform: scale(.92); }
+
+    .icon-btn.sm {
+      width: 38px;
+      height: 38px;
+      font-size: 15px;
+      font-weight: 800;
+    }
+
+    .tb-title {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .tb-title b {
+      display: block;
+      font-size: 14.5px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .tb-title small {
+      font-size: 11px;
+      color: var(--text-dim);
+    }
+
+    .progress {
+      height: 4px;
+      margin: 10px 16px 0;
+      border-radius: 99px;
+      background: var(--track);
+      overflow: hidden;
+    }
+
+    .progress i {
+      display: block;
+      height: 100%;
+      width: 0;
+      border-radius: 99px;
+      background: linear-gradient(90deg, var(--gold), var(--gold-hi));
+      transition: width .45s cubic-bezier(.22, 1, .36, 1);
+    }
+
+    .dhikr-wrap { padding: 16px 16px 4px; }
+
+    .dhikr-card {
+      position: relative;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 22px 18px 18px;
+      box-shadow: 0 10px 28px var(--shadow);
+      cursor: pointer;
+      touch-action: manipulation;
+      transition: border-color .35s, box-shadow .35s;
+    }
+
+    .dhikr-card.done {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 1px var(--gold), 0 12px 32px var(--shadow);
+    }
+
+    .tag {
+      position: absolute;
+      top: -11px;
+      inset-inline-start: 18px;
+      background: linear-gradient(135deg, var(--gold), var(--gold-hi));
+      color: #083A2E;
+      font-size: 10px;
+      font-weight: 800;
+      padding: 3px 11px;
+      border-radius: 99px;
+    }
+
+    .dhikr-text {
+      font-family: var(--font-quran);
+      font-size: var(--dsize);
+      line-height: 2.15;
+      text-align: justify;
+      text-align-last: center;
+      transition: font-size .25s;
+    }
+
+    .dhikr-card.quran .dhikr-text { color: var(--text); }
+    .orn { font-style: normal; color: var(--gold-text); }
+
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 10px;
+      justify-content: center;
+      margin-top: 15px;
+    }
+
+    .source {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: var(--gold-text);
+      align-self: center;
+    }
+
+    .count-pill {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: var(--text-dim);
+      background: var(--card2);
+      border: 1px solid var(--line);
+      padding: 4px 11px;
+      border-radius: 99px;
+    }
+
+    .virtue {
+      margin-top: 13px;
+      background: var(--card2);
+      border-inline-start: 3px solid var(--gold);
+      border-radius: 11px;
+      padding: 10px 13px;
+      font-size: 12.5px;
+      line-height: 1.95;
+      color: var(--text-dim);
+    }
+
+    .virtue b { color: var(--gold-text); }
+
+    .counter-zone {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 22px 0 6px;
+    }
+
+    .counter {
+      position: relative;
+      width: 170px;
+      height: 170px;
+      cursor: pointer;
+      touch-action: manipulation;
+      user-select: none;
+      -webkit-user-select: none;
+      transition: transform .15s;
+    }
+
+    .counter:active { transform: scale(.965); }
+
+    .counter svg {
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+    }
+
+    .ring-track {
+      fill: none;
+      stroke: var(--track);
+      stroke-width: 8;
+    }
+
+    .ring-prog {
+      fill: none;
+      stroke: var(--gold);
+      stroke-width: 8;
+      stroke-linecap: round;
+      stroke-dasharray: 377;
+      stroke-dashoffset: 377;
+      transform: rotate(-90deg);
+      transform-origin: center;
+      transition: stroke-dashoffset .35s cubic-bezier(.22, 1, .36, 1);
+    }
+
+    .ring-check {
+      fill: none;
+      stroke: var(--gold-hi);
+      stroke-width: 6;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 100;
+      stroke-dashoffset: 100;
+      opacity: 0;
+    }
+
+    .counter.done .ring-check {
+      opacity: 1;
+      stroke-dashoffset: 0;
+      transition: stroke-dashoffset .5s ease .15s, opacity .2s;
+    }
+
+    .counter-num {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;
+    }
+
+    .counter-num .num {
+      font-family: var(--font-quran);
+      font-size: 46px;
+      font-weight: 700;
+      line-height: 1;
+      transition: color .3s;
+    }
+
+    .counter.done .num { color: var(--gold-text); }
+
+    .counter-num .sub {
+      font-size: 11px;
+      color: var(--text-dim);
+      margin-top: 7px;
+    }
+
+    .pulse {
+      position: absolute;
+      inset: 6px;
+      border-radius: 50%;
+      border: 2px solid var(--gold);
+      animation: pulseOut .55s ease-out forwards;
+      pointer-events: none;
+    }
+
+    @keyframes pulseOut {
+      from { transform: scale(.72); opacity: .75; }
+      to { transform: scale(1.28); opacity: 0; }
+    }
+
+    .hint {
+      font-size: 11.5px;
+      color: var(--text-dim);
+      margin-top: 12px;
+    }
+
+    .list-ctrl {
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      max-width: 440px;
+      z-index: 9;
+      display: flex;
+      gap: 9px;
+      padding: 12px 16px calc(13px + env(safe-area-inset-bottom));
+      background: linear-gradient(0deg, var(--bg) 72%, transparent);
+    }
+
+    .btn {
+      flex: 1;
+      height: 49px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: var(--card);
+      color: var(--text);
+      font-size: 13.5px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: transform .15s, border-color .2s;
+      touch-action: manipulation;
+    }
+
+    .btn:active { transform: scale(.96); }
+    .btn:disabled { opacity: .32; pointer-events: none; }
+
+    .btn.gold {
+      background: linear-gradient(135deg, var(--gold), var(--gold-hi));
+      color: #083A2E;
+      border: none;
+      box-shadow: 0 6px 16px rgba(212, 175, 55, .25);
+    }
+
+    .btn.sq { flex: none; width: 49px; }
+
+    .done-panel {
+      position: fixed;
+      inset: 0;
+      z-index: 25;
+      display: none;
+      place-items: center;
+      background: rgba(3, 22, 17, .62);
+      backdrop-filter: blur(4px);
+      padding: 24px;
+    }
+
+    .done-panel.show { display: grid; }
+
+    .done-card {
+      width: min(100%, 330px);
+      background: var(--card);
+      border: 1px solid var(--gold);
+      border-radius: 24px;
+      padding: 30px 22px 22px;
+      text-align: center;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, .4);
+      animation: pop .5s cubic-bezier(.34, 1.56, .64, 1) both;
+    }
+
+    @keyframes pop {
+      from { transform: scale(.8); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    .done-card .big-check {
+      width: 78px;
+      height: 78px;
+      margin: 0 auto 14px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, var(--gold), var(--gold-hi));
+      color: #083A2E;
+      box-shadow: 0 8px 22px rgba(212, 175, 55, .35);
+    }
+
+    .done-card h3 {
+      font-family: var(--font-quran);
+      font-size: 23px;
+      color: var(--gold-text);
+    }
+
+    .done-card p {
+      font-size: 13px;
+      color: var(--text-dim);
+      line-height: 1.9;
+      margin: 8px 0 18px;
+    }
+
+    .done-card .btn {
+      width: 100%;
+      margin-top: 8px;
+      flex: none;
+    }
+
+    /* &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; 8) شريط التنق&#1617;ل السفلي &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; */
+    #tabbar {
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      max-width: 440px;
+      z-index: 15;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      background: var(--card);
+      border-top: 1px solid var(--line);
+      padding: 5px 8px calc(6px + env(safe-area-inset-bottom));
+      box-shadow: 0 -8px 24px var(--shadow);
+      transition: transform .35s ease;
+    }
+
+    #tabbar.hide { transform: translate(-50%, 115%); }
+
+    #tabbar button {
+      background: none;
+      border: none;
+      color: var(--text-dim);
+      font-size: 10.5px;
+      font-weight: 700;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+      padding: 7px 0;
+      position: relative;
+      min-height: 48px;
+    }
+
+    #tabbar button.active { color: var(--gold-text); }
+
+    #tabbar button.active::before {
+      content: &#39;&#39;;
+      position: absolute;
+      top: -6px;
+      width: 20px;
+      height: 3px;
+      border-radius: 99px;
+      background: var(--gold);
+    }
+
+    /* &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; 9) البحث &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; */
+    .search-box {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 16px 16px 6px;
+      height: 53px;
+      padding: 0 15px;
+      background: var(--card);
+      border: 1.5px solid var(--line);
+      border-radius: 16px;
+      color: var(--text-dim);
+      transition: border-color .25s;
+    }
+
+    .search-box:focus-within { border-color: var(--gold); }
+
+    .search-box input {
+      flex: 1;
+      border: none;
+      background: none;
+      outline: none;
+      color: var(--text);
+      font-family: inherit;
+      font-size: 15px;
+    }
+
+    .search-box input::placeholder {
+      color: var(--text-dim);
+      opacity: .7;
+    }
+
+    .res-item {
+      display: block;
+      width: calc(100% - 32px);
+      margin: 10px 16px;
+      text-align: right;
+      color: var(--text);
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 15px;
+      padding: 13px 15px;
+      box-shadow: 0 5px 14px var(--shadow);
+      transition: transform .15s, border-color .2s;
+    }
+
+    .res-item:active {
+      transform: scale(.97);
+      border-color: var(--gold);
+    }
+
+    .res-item .snip {
+      font-family: var(--font-quran);
+      font-size: 14.5px;
+      line-height: 1.95;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .res-item .rmeta {
+      display: flex;
+      gap: 8px;
+      margin-top: 9px;
+    }
+
+    .rchip {
+      font-size: 10.5px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 99px;
+    }
+
+    .rchip.g {
+      background: rgba(212, 175, 55, .15);
+      color: var(--gold-text);
+      border: 1px solid var(--line);
+    }
+
+    .rchip.d {
+      background: var(--card2);
+      color: var(--text-dim);
+      border: 1px solid var(--line);
+    }
+
+    .empty {
+      text-align: center;
+      color: var(--text-dim);
+      font-size: 13.5px;
+      padding: 40px 20px;
+      line-height: 2;
+    }
+
+    /* &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; 10) السبحة &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; */
+    .tasbih-head {
+      text-align: center;
+      padding: 22px 16px 6px;
+    }
+
+    .tasbih-head h2 {
+      font-family: var(--font-quran);
+      font-size: 26px;
+    }
+
+    .tasbih-head p {
+      font-size: 12px;
+      color: var(--text-dim);
+      margin-top: 4px;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      margin: 14px 16px;
+    }
+
+    .chip {
+      padding: 9px 15px;
+      border-radius: 99px;
+      border: 1px solid var(--line);
+      background: var(--card);
+      color: var(--text);
+      font-family: var(--font-quran);
+      font-size: 14px;
+      transition: .2s;
+      touch-action: manipulation;
+    }
+
+    .chip:active { transform: scale(.94); }
+
+    .chip.on {
+      background: linear-gradient(135deg, var(--gold), var(--gold-hi));
+      color: #083A2E;
+      border-color: var(--gold);
+      font-weight: 700;
+    }
+
+    .chip.sm {
+      font-family: var(--font-ui);
+      font-size: 12px;
+      font-weight: 700;
+      padding: 7px 13px;
+    }
+
+    .tasbih-total {
+      text-align: center;
+      font-size: 12px;
+      color: var(--text-dim);
+      margin: 4px 0 20px;
+    }
+
+    .tasbih-total b { color: var(--gold-text); }
+
+    /* &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; 11) الإعدادات &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; */
+    .set-card {
+      margin: 14px 16px 0;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 15px 16px;
+      box-shadow: 0 6px 16px var(--shadow);
+    }
+
+    .set-card h3 {
+      font-size: 13.5px;
+      font-weight: 800;
+      color: var(--gold-text);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .set-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      min-height: 46px;
+      padding: 4px 0;
+    }
+
+    .set-row + .set-row { border-top: 1px solid var(--line); }
+
+    .set-row label {
+      font-size: 13.5px;
+      font-weight: 700;
+    }
+
+    .set-row small {
+      display: block;
+      font-size: 11px;
+      color: var(--text-dim);
+      font-weight: 400;
+      margin-top: 2px;
+    }
+
+    .seg {
+      display: flex;
+      background: var(--card2);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 3px;
+      gap: 3px;
+    }
+
+    .seg button {
+      border: none;
+      background: none;
+      color: var(--text-dim);
+      padding: 8px 11px;
+      border-radius: 99px;
+      font-size: 12px;
+      font-weight: 800;
+      transition: .2s;
+      min-width: 44px;
+    }
+
+    .seg button.on {
+      background: linear-gradient(135deg, var(--gold), var(--gold-hi));
+      color: #083A2E;
+    }
+
+    .switch {
+      position: relative;
+      width: 50px;
+      height: 29px;
+      flex: none;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .knob {
+      position: absolute;
+      inset: 0;
+      background: var(--track);
+      border-radius: 99px;
+      transition: .25s;
+    }
+
+    .knob::before {
+      content: &#39;&#39;;
+      position: absolute;
+      top: 3px;
+      inset-inline-start: 3px;
+      width: 23px;
+      height: 23px;
+      border-radius: 50%;
+      background: #fff;
+      transition: .25s;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, .25);
+    }
+
+    .switch input:checked + .knob { background: var(--gold); }
+    .switch input:checked + .knob::before { transform: translateX(-21px); }
+
+    .preview {
+      font-family: var(--font-quran);
+      text-align: center;
+      padding: 12px;
+      color: var(--text-dim);
+      font-size: var(--dsize);
+      line-height: 2;
+      transition: font-size .25s;
+    }
+
+    .about {
+      font-size: 12px;
+      color: var(--text-dim);
+      line-height: 2;
+      padding: 2px 0;
+    }
+
+    .about b { color: var(--text); }
+
+    .ver {
+      text-align: center;
+      font-size: 11px;
+      color: var(--text-dim);
+      padding: 18px 0 8px;
+    }
+
+    #toast {
+      position: fixed;
+      bottom: 96px;
+      left: 50%;
+      transform: translate(-50%, 16px);
+      z-index: 40;
+      background: var(--card);
+      border: 1px solid var(--gold);
+      color: var(--text);
+      padding: 10px 20px;
+      border-radius: 99px;
+      font-size: 12.5px;
+      font-weight: 700;
+      opacity: 0;
+      pointer-events: none;
+      transition: .3s;
+      box-shadow: 0 10px 26px var(--shadow);
+      max-width: 88%;
+      text-align: center;
+    }
+
+    #toast.show {
+      opacity: 1;
+      transform: translate(-50%, 0);
+    }
+
+    @media (prefers-reduced-motion:reduce) {
+      *, *::before, *::after {
+        animation-duration: .01ms !important;
+        transition-duration: .01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body data-fs='m' data-theme='dark'>
+  <div class='shell' id='shell'>
+
+    <!-- &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; الشاشة الرئيسية &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; -->
+    <section class='screen active' id='scr-home'>
+      <header class='hero'>
+        <p class='hero-ayah' id='dailyAyah'/>
+        <div class='hero-orn'>&#10022;</div>
+        <h1>ح&#1616;ص&#1618;ن&#1615; <span>ال&#1618;م&#1615;س&#1618;ل&#1616;م</span></h1>
+        <p class='hero-sub'>أذكار المسلم اليومية من الكتاب والسنة</p>
+        <div class='hero-meta'>
+          <span class='hchip' id='hijriChip'>&#8230;</span>
+          <span class='hchip' id='greetChip'>&#8230;</span>
+          <span class='hchip gold' id='dailyChip' style='display:none'/>
+        </div>
+        <button aria-label='ابحث في الأذكار' class='search-pill' id='goSearch'>
+          <svg fill='none' height='17' stroke='currentColor' stroke-linecap='round' stroke-width='2' viewBox='0 0 24 24' width='17'>
+            <circle cx='11' cy='11' r='6.5'/>
+            <path d='m20 20-4.4-4.4'/>
+          </svg>
+          <span>ابحث في الأذكار&#8230;</span>
+        </button>
+        <svg aria-hidden='true' class='hero-edge' preserveAspectRatio='none' viewBox='0 0 360 20'>
+          <path d='M0 20 V13 Q15 0 30 13 T60 13 T90 13 T120 13 T150 13 T180 13 T210 13 T240 13 T270 13 T300 13 T330 13 T360 13 V20 Z' fill='currentColor'/>
+        </svg>
+      </header>
+
+      <div class='features' id='features'/>
+
+      <button class='resume-chip' id='resumeChip' style='display:none;margin-top:18px'/>
+
+      <h2 class='sec-title'>ج&#1614;م&#1616;يع&#1615; ال&#1618;أ&#1614;ذ&#1618;ك&#1614;ار</h2>
+      <div class='cats' id='catsGrid'/>
+
+      <p class='ver'>&#64831;و&#1614;ل&#1614;ذ&#1616;ك&#1618;ر&#1615; الل&#1614;&#1617;ه&#1616; أ&#1614;ك&#1618;ب&#1614;ر&#1615;&#64830;</p>
+    </section>
+
+    <!-- &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; شاشة عرض الذكر &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; -->
+    <section class='screen' id='scr-list'>
+      <div class='topbar'>
+        <button aria-label='رجوع' class='icon-btn' id='btnBack'>
+          <svg fill='none' height='20' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2.2' viewBox='0 0 24 24' width='20'>
+            <path d='m9 5 7 7-7 7'/>
+          </svg>
+        </button>
+        <div class='tb-title'><b id='listTitle'/><small id='listSub'/></div>
+        <button aria-label='مشاركة الذكر' class='icon-btn sm' id='btnShare'>
+          <svg fill='none' height='17' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewBox='0 0 24 24' width='17'>
+            <path d='M12 3v11M8.5 6 12 2.8 15.5 6M6 10.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-8.5'/>
+          </svg>
+        </button>
+        <button aria-label='تكبير الخط' class='icon-btn sm' id='btnFontUp'>أ+</button>
+        <button aria-label='تصغير الخط' class='icon-btn sm' id='btnFontDn'>أ&#8722;</button>
+      </div>
+      <div class='progress'><i id='progFill'/></div>
+
+      <div id='dhikrBody'>
+        <div class='dhikr-wrap'>
+          <div class='dhikr-card' id='dhikrCard'>
+            <span class='tag' id='dhikrTag' style='display:none'/>
+            <p class='dhikr-text' id='dhikrText'/>
+            <div class='meta-row'>
+              <span class='count-pill' id='dhikrCount'/>
+              <span class='source' id='dhikrSource'/>
+            </div>
+            <div class='virtue' id='dhikrVirtue' style='display:none'/>
+          </div>
+        </div>
+
+        <div class='counter-zone'>
+          <div aria-label='اضغط للعدّ' class='counter' id='counterBtn' role='button' tabindex='0'>
+            <svg viewBox='0 0 140 140'>
+              <circle class='ring-track' cx='70' cy='70' r='60'/>
+              <circle class='ring-prog' cx='70' cy='70' id='ringProg' r='60'/>
+              <path class='ring-check' d='M45 73 l17 17 l34 -38' id='ringCheck' pathLength='100'/>
+            </svg>
+            <div class='counter-num'>
+              <span class='num' id='counterNum'>٠</span>
+              <span class='sub' id='counterSub'>اضغط للعد&#1617;</span>
+            </div>
+          </div>
+          <p class='hint'>اضغط على الدائرة أو على نص&#1617; الذكر</p>
+        </div>
+      </div>
+
+      <!-- لوحة إتمام الفئة -->
+      <div class='done-panel' id='donePanel'>
+        <div class='done-card'>
+          <div class='big-check'>
+            <svg fill='none' height='38' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' viewBox='0 0 24 24' width='38'>
+              <path d='m4.5 12.5 5 5 10-11'/>
+            </svg>
+          </div>
+          <h3>ت&#1614;ق&#1614;ب&#1614;&#1617;ل&#1614; الل&#1614;&#1617;ه&#1615; م&#1616;ن&#1618;ك</h3>
+          <p id='doneMsg'/>
+          <button class='btn gold' id='doneHome'>العودة إلى الرئيسية</button>
+          <button class='btn' id='doneAgain'>إعادة قراءة الفئة</button>
+        </div>
+      </div>
+
+      <div class='list-ctrl' id='listCtrl'>
+        <button class='btn' id='btnPrev'>السابق</button>
+        <button aria-label='إعادة عدّ هذا الذكر' class='btn sq' id='btnReset'>
+          <svg fill='none' height='18' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewBox='0 0 24 24' width='18'>
+            <path d='M4 5v5h5'/>
+            <path d='M4.5 10a8 8 0 1 0 2-5.5'/>
+          </svg>
+        </button>
+        <button class='btn gold' id='btnNext'>التالي</button>
+      </div>
+    </section>
+
+    <!-- &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; شاشة البحث &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; -->
+    <section class='screen' id='scr-search'>
+      <h2 class='sec-title' style='margin-top:20px'>ال&#1618;ب&#1614;ح&#1618;ث&#1615; ف&#1616;ي ال&#1618;أ&#1614;ذ&#1618;ك&#1614;ار</h2>
+      <div class='search-box'>
+        <svg fill='none' height='18' stroke='currentColor' stroke-linecap='round' stroke-width='2' viewBox='0 0 24 24' width='18'>
+          <circle cx='11' cy='11' r='6.5'/>
+          <path d='m20 20-4.4-4.4'/>
+        </svg>
+        <input autocomplete='off' id='searchInput' placeholder='اكتب كلمة من الذكر…' type='search'/>
+      </div>
+      <div id='searchResults'>
+        <p class='empty'>ابحث في نصوص جميع الأذكار<br/>مثال: &#171;الاستغفار&#187; أو &#171;العافية&#187;</p>
+      </div>
+    </section>
+
+    <!-- &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; شاشة السبحة &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; -->
+    <section class='screen' id='scr-tasbih'>
+      <div class='tasbih-head'>
+        <h2>الس&#1615;&#1617;ب&#1618;ح&#1614;ة</h2>
+        <p>عد&#1617;اد حر&#1617; للتسبيح والذكر في أي وقت</p>
+      </div>
+      <div class='chips' id='phraseChips'/>
+      <div class='chips' id='targetChips'/>
+      <div class='counter-zone' style='padding-top:8px'>
+        <div aria-label='اضغط للتسبيح' class='counter' id='tasbihBtn' role='button' tabindex='0'>
+          <svg viewBox='0 0 140 140'>
+            <circle class='ring-track' cx='70' cy='70' r='60'/>
+            <circle class='ring-prog' cx='70' cy='70' id='tRing' r='60'/>
+          </svg>
+          <div class='counter-num'>
+            <span class='num' id='tNum'>٠</span>
+            <span class='sub' id='tSub'>من ٣٣</span>
+          </div>
+        </div>
+      </div>
+      <p class='tasbih-total'>مجموع الجلسة: <b id='tTotal'>٠</b> تسبيحة</p>
+      <div style='display:flex;justify-content:center;padding-bottom:14px'>
+        <button class='btn' id='tReset' style='max-width:200px'>تصفير العد&#1617;اد</button>
+      </div>
+    </section>
+
+    <!-- &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; شاشة الإعدادات &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; -->
+    <section class='screen' id='scr-settings'>
+      <h2 class='sec-title' style='margin-top:20px'>ال&#1618;إ&#1616;ع&#1618;د&#1614;اد&#1614;ات</h2>
+
+      <div class='set-card'>
+        <h3>🎨 المظهر</h3>
+        <div class='set-row'>
+          <label>الوضع الليلي / النهاري</label>
+          <div class='seg' id='themeSeg'>
+            <button data-t='dark'>ليلي</button>
+            <button data-t='light'>نهاري</button>
+          </div>
+        </div>
+      </div>
+
+      <div class='set-card'>
+        <h3>🔤 حجم الخط</h3>
+        <div class='set-row'>
+          <label style='width:100%'>
+            <div class='seg' id='fsSeg' style='margin-top:6px'>
+              <button data-f='s'>صغير</button>
+              <button data-f='m'>متوسط</button>
+              <button data-f='l'>كبير</button>
+              <button data-f='xl'>كبير جد&#1611;ا</button>
+            </div>
+          </label>
+        </div>
+        <p class='preview'>س&#1615;ب&#1618;ح&#1614;ان&#1614; الل&#1614;&#1617;ه&#1616; و&#1614;ب&#1616;ح&#1614;م&#1618;د&#1616;ه&#1616;</p>
+      </div>
+
+      <div class='set-card'>
+        <h3>🔔 التذكيرات <span style='font-size:10px;font-weight:400;color:var(--text-dim)'>(تعمل في نسخة التطبيق)</span></h3>
+        <div class='set-row'>
+          <label>تذكير أذكار الصباح<small>بعد صلاة الفجر</small></label>
+          <span class='switch'><input id='remM' type='checkbox'/><span class='knob'/></span>
+        </div>
+        <div class='set-row'>
+          <label>تذكير أذكار المساء<small>بعد صلاة العصر</small></label>
+          <span class='switch'><input id='remE' type='checkbox'/><span class='knob'/></span>
+        </div>
+      </div>
+
+      <div class='set-card'>
+        <h3>📖 عن التطبيق</h3>
+        <p class='about'>
+          <b>حصن المسلم</b> &#8212; نسخة رقمية من كتاب الشيخ سعيد بن علي بن وهف القحطاني رحمه الله.
+          يعمل التطبيق بالكامل <b>دون اتصال بالإنترنت</b>&#1548; ولا يحتوي على إعلانات أو حسابات.
+        </p>
+      </div>
+    </section>
+
+    <!-- وسم قسم العرض الإجباري لبلوجر -->
+    <b:section id='main_content' showelement='yes'/>
+
+  </div><!-- /shell -->
+
+  <!-- شريط التنقل السفلي -->
+  <nav aria-label='التنقل الرئيسي' id='tabbar'>
+    <button class='active' data-scr='home'>
+      <svg fill='none' height='22' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.9' viewBox='0 0 24 24' width='22'>
+        <path d='m4 11 8-7 8 7M6 9.5V20h12V9.5M10 20v-5h4v5'/>
+      </svg>
+      <span>الرئيسية</span>
+    </button>
+    <button data-scr='search'>
+      <svg fill='none' height='22' stroke='currentColor' stroke-linecap='round' stroke-width='1.9' viewBox='0 0 24 24' width='22'>
+        <circle cx='11' cy='11' r='6.5'/>
+        <path d='m20 20-4.4-4.4'/>
+      </svg>
+      <span>البحث</span>
+    </button>
+    <button data-scr='tasbih'>
+      <svg fill='none' height='22' stroke='currentColor' stroke-linecap='round' stroke-width='2.6' viewBox='0 0 24 24' width='22'>
+        <circle cx='12' cy='10.5' r='6.8' stroke-dasharray='0.4 3.9'/>
+        <path d='M12 17.5V20M9.8 21.5h4.4'/>
+      </svg>
+      <span>السبحة</span>
+    </button>
+    <button data-scr='settings'>
+      <svg fill='none' height='22' stroke='currentColor' stroke-linecap='round' stroke-width='1.9' viewBox='0 0 24 24' width='22'>
+        <path d='M4 8h7M17 8h3M4 16h3M13 16h7'/>
+        <circle cx='14' cy='8' r='2.4'/>
+        <circle cx='10' cy='16' r='2.4'/>
+      </svg>
+      <span>الإعدادات</span>
+    </button>
+  </nav>
+
+  <div id='toast' role='status'/>
+
+  <script type='text/javascript'>
+  //<![CDATA[
+    'use strict';
+    var CATEGORIES = [
+      { id: 'sabah', name: 'أذكار الصباح', icon: 'sun', time: 'morning' },
+      { id: 'masa', name: 'أذكار المساء', icon: 'moon', time: 'evening' },
+      { id: 'wake', name: 'أذكار الاستيقاظ من النوم', icon: 'wake' },
+      { id: 'sleep', name: 'أذكار النوم', icon: 'sleep' },
+      { id: 'insomnia', name: 'أدعية القلق والأرق', icon: 'insomnia' },
+      { id: 'dress', name: 'أذكار لبس الثوب', icon: 'dress' },
+      { id: 'toilet', name: 'أذكار دخول الخلاء والخروج منه', icon: 'door' },
+      { id: 'wudu', name: 'أذكار الوضوء', icon: 'drop' },
+      { id: 'home', name: 'أذكار الخروج من المنزل والدخول إليه', icon: 'house' },
+      { id: 'walk', name: 'أذكار الذهاب إلى المسجد', icon: 'road' },
+      { id: 'mosque', name: 'أذكار دخول المسجد والخروج منه', icon: 'mosque' },
+      { id: 'adhan', name: 'أذكار الأذان', icon: 'adhan' },
+      { id: 'after', name: 'أذكار بعد الصلاة المكتوبة', icon: 'beads' },
+      { id: 'istiftah', name: 'دعاء الاستفتاح في الصلاة', icon: 'book' },
+      { id: 'ruku', name: 'أدعية الركوع والسجود والتشهد', icon: 'mihrab' },
+      { id: 'rain', name: 'أذكار المطر والرياح والرعد', icon: 'rain' },
+      { id: 'travel', name: 'أذكار السفر', icon: 'compass' },
+      { id: 'food', name: 'أذكار الطعام والشراب', icon: 'food' },
+      { id: 'sick', name: 'أذكار المريض وعيادة المريض', icon: 'heart' },
+      { id: 'worry', name: 'دعاء الكرب والهم والحزن', icon: 'cloudsun' },
+      { id: 'anger', name: 'ذكر الغضب', icon: 'flame' },
+      { id: 'istikhara', name: 'دعاء الاستخارة', icon: 'star8' },
+      { id: 'hajj', name: 'أذكار الحج والعمرة', icon: 'kaaba' },
+      { id: 'funeral', name: 'أذكار الجنازة والتعزية', icon: 'crescent' },
+      { id: 'salawat', name: 'فضل الصلاة على النبي ﷺ', icon: 'salawat' },
+      { id: 'misc', name: 'أذكار متفرقة', icon: 'beads' }
+    ];
+
+    var ADHKAR = [
+      // ════ أذكار الصباح ════
+      { c: 'sabah', q: 1, x: '﴿اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ﴾', n: 1, l: 'مرة واحدة', s: 'آية الكرسي — البقرة ٢٥٥', v: 'من قالها حين يصبح أُجير من الجن حتى يمسي.' },
+      { c: 'sabah', q: 1, x: '﴿قُلْ هُوَ اللَّهُ أَحَدٌ ۞ اللَّهُ الصَّمَدُ ۞ لَمْ يَلِدْ وَلَمْ يُولَدْ ۞ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ﴾', n: 3, l: '٣ مرات', s: 'سورة الإخلاص', v: 'تكفيه من كل شيء.' },
+      { c: 'sabah', q: 1, x: '﴿قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ۞ مِن شَرِّ مَا خَلَقَ ۞ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ۞ وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ۞ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ﴾', n: 3, l: '٣ مرات', s: 'سورة الفلق', v: 'تكفيه من كل شيء.' },
+      { c: 'sabah', q: 1, x: '﴿قُلْ أَعُوذُ بِرَبِّ النَّاسِ ۞ مَلِكِ النَّاسِ ۞ إِلَٰهِ النَّاسِ ۞ مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ۞ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ ۞ مِنَ الْجِنَّةِ وَالنَّاسِ﴾', n: 3, l: '٣ مرات', s: 'سورة الناس', v: 'تكفيه من كل شيء.' },
+      { c: 'sabah', x: '«أَصْبَحْنَا وَأَصْبَحَ المُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ لاَ إِلَهَ إِلاَّ اللَّهُ، وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ المُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، رَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذَا الْيَوْمِ وَخَيْرَ مَا بَعْدَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَذَا الْيَوْمِ وَشَرِّ مَا بَعْدَهُ، رَبِّ أَعُوذُ بِكَ مِنَ الْكَسَلِ وَسُوءِ الْكِبَرِ، رَبِّ أَعُوذُ بِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ»', n: 1, l: 'مرة واحدة', s: 'رواه مسلم' },
+      { c: 'sabah', x: '«اللَّهُمَّ بِكَ أَصْبَحْنَا، وَبِكَ أَمْسَيْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوتُ وَإِلَيْكَ النُّشُورُ»', n: 1, l: 'مرة واحدة', s: 'رواه الترمذي' },
+      { c: 'sabah', x: '«اللَّهُمَّ أَنْتَ رَبِّي لاَ إِلَهَ إِلاَّ أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي فَاغْفِرْ لِي فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ»', n: 1, l: 'مرة واحدة — سيد الاستغفار', s: 'رواه البخاري', v: 'من قالها موقنًا بها فمات من يومه دخل الجنة.' },
+      { c: 'sabah', x: '«اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتَكَ وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لاَ إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَهُ، وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُولُكَ»', n: 4, l: '٤ مرات', s: 'رواه أبو داود', v: 'من قالها أعتقه الله من النار.' },
+      { c: 'sabah', x: '«اللَّهُمَّ مَا أَصْبَحَ بِي مِنْ نِعْمَةٍ أَوْ بِأَحَدٍ مِنْ خَلْقِكَ فَمِنْكَ وَحْدَكَ لاَ شَرِيكَ لَكَ، فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ»', n: 1, l: 'مرة واحدة', s: 'رواه أبو داود', v: 'من قالها حين يصبح فقد أدى شكر يومه.' },
+      { c: 'sabah', x: '«اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ، اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ وَالْفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ»', n: 3, l: '٣ مرات', s: 'رواه أبو داود' },
+      { c: 'sabah', x: '«حَسْبِيَ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ»', n: 7, l: '٧ مرات', s: 'رواه أبو داود', v: 'كفاه الله ما أهمه من أمر الدنيا والآخرة.' },
+      { c: 'sabah', x: '«بِسْمِ اللَّهِ الَّذِي لاَ يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الأَرْضِ وَلاَ فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ»', n: 3, l: '٣ مرات', s: 'رواه أصحاب السنن', v: 'لم يضره شيء.' },
+      { c: 'sabah', x: '«رَضِيتُ بِاللَّهِ رَبًّا، وَبِالإِسْلاَمِ دِينًا، وَبِمُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا»', n: 3, l: '٣ مرات', s: 'رواه أصحاب السنن', v: 'كان حقاً على الله أن يرضيه يوم القيامة.' },
+      { c: 'sabah', x: '«يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ، أَصْلِحْ لِي شَأْنِي كُلَّهُ، وَلاَ تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ»', n: 1, l: 'مرة واحدة', s: 'رواه الحاكم وصححه الألباني' },
+      { c: 'sabah', x: '«أَصْبَحْنَا عَلَى فِطْرَةِ الإِسْلاَمِ، وَعَلَى كَلِمَةِ الإِخْلاَصِ، وَعَلَى دِينِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، وَعَلَى مِلَّةِ أَبِينَا إِبْرَاهِيمَ حَنِيفًا مُسْلِمًا وَمَا كَانَ مِنَ الْمُشْرِكِينَ»', n: 1, l: 'مرة واحدة', s: 'رواه أحمد' },
+      { c: 'sabah', x: '«سُبْحَانَ اللَّهِ وَبِحَمْدِهِ: عَدَدَ خَلْقِهِ، وَرِضَا نَفْسِهِ، وَزِنَةَ عَرْشِهِ، وَمِدَادَ كَلِمَاتِهِ»', n: 3, l: '٣ مرات', s: 'رواه مسلم' },
+      { c: 'sabah', x: '«اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلاً مُتَقَبَّلاً»', n: 1, l: 'مرة واحدة', s: 'رواه ابن ماجه' },
+      { c: 'sabah', x: '«سُبْحَانَ اللَّهِ وَبِحَمْدِهِ»', n: 100, l: '١٠٠ مرة', s: 'رواه مسلم', v: 'حطت خطاياه وإن كانت مثل زبد البحر.' },
+      { c: 'sabah', x: '«أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ»', n: 100, l: '١٠٠ مرة', s: 'رواه البخاري ومسلم' },
+
+      // ════ أذكار المساء ════
+      { c: 'masa', q: 1, x: '﴿اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ﴾', n: 1, l: 'مرة واحدة', s: 'آية الكرسي — البقرة ٢٥٥', v: 'من قالها حين يمسي أُجير من الجن حتى يصبح.' },
+      { c: 'masa', q: 1, x: '﴿قُلْ هُوَ اللَّهُ أَحَدٌ ۞...﴾', n: 3, l: '٣ مرات', s: 'الإخلاص والفلق والناس' },
+      { c: 'masa', x: '«أَمْسَيْنَا وَأَمْسَى المُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ لاَ إِلَهَ إِلاَّ اللَّهُ، وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ المُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، رَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذِهِ اللَّيْلَةِ وَخَيْرَ مَا بَعْدَهَا، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَذِهِ اللَّيْلَةِ وَشَرِّ مَا بَعْدَهَا...»', n: 1, l: 'مرة واحدة', s: 'رواه مسلم' },
+      { c: 'masa', x: '«اللَّهُمَّ بِكَ أَمْسَيْنَا، وَبِكَ أَصْبَحْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوتُ وَإِلَيْكَ الْمَصِيرُ»', n: 1, l: 'مرة واحدة', s: 'رواه الترمذي' },
+      { c: 'masa', x: '«اللَّهُمَّ أَنْتَ رَبِّي لاَ إِلَهَ إِلاَّ أَنْتَ، خَلقتَنِي وَأَنَا عَبْدُكَ...»', n: 1, l: 'مرة واحدة — سيد الاستغفار', s: 'رواه البخاري' },
+      { c: 'masa', x: '«أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ»', n: 3, l: '٣ مرات', s: 'رواه مسلم', v: 'لم تضره حُمَة (لدغة) في تلك الليلة.' },
+      { c: 'masa', x: '«اللَّهُمَّ مَا أَمْسَى بِي مِنْ نِعْمَةٍ أَوْ بِأَحَدٍ مِنْ خَلْقِكَ فَمِنْكَ وَحْدَكَ لاَ شَرِيكَ لَكَ، فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ»', n: 1, l: 'مرة واحدة', s: 'رواه أبو داود' },
+
+      // ════ أذكار الاستيقاظ ════
+      { c: 'wake', x: '«الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ»', n: 1, l: 'مرة واحدة', s: 'رواه البخاري' },
+      { c: 'wake', x: '«الْحَمْدُ لِلَّهِ الَّذِي عَافَانِي فِي جَسَدِي، وَرَدَّ عَلَيَّ رُوحِي، وَأَذِنَ لِي بِذِكْرِهِ»', n: 1, l: 'مرة واحدة', s: 'رواه الترمذي' },
+      { c: 'wake', q: 1, x: '﴿إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافِ اللَّيْلِ وَالنَّهَارِ لَآيَاتٍ لِّأُولِي الْأَلْبَابِ﴾', n: 1, l: 'آيات آل عمران [١٩٠ - ٢٠٠]', s: 'رواه البخاري' },
+
+      // ════ أذكار النوم ════
+      { c: 'sleep', x: 'يجمع كفيه فينفث فيهما ويقرأ: ﴿قُلْ هُوَ اللَّهُ أَحَدٌ﴾ و﴿قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ﴾ و﴿قُلْ أَعُوذُ بِرَبِّ النَّاسِ﴾ ثم يمسح بهما ما استطاع من جسده.', n: 3, l: '٣ مرات', s: 'رواه البخاري' },
+      { c: 'sleep', q: 1, x: '﴿اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ...﴾', n: 1, l: 'آية الكرسي', s: 'رواه البخاري', v: 'لا يزال عليك من الله حافظ ولا يقربك شيطان حتى تصبح.' },
+      { c: 'sleep', q: 1, x: '﴿آمَنَ الرَّسُولُ بِمَا أُنزِلَ إِلَيْهِ مِن رَّبِّهِ وَالْمُؤْمِنُونَ...﴾', n: 1, l: 'أواخر سورة البقرة [٢٨٥ - ٢٨٦]', s: 'متفق عليه', v: 'من قرأهما في ليلة كفتاه.' },
+      { c: 'sleep', x: '«بِاسْمِكَ رَبِّي وَضَعْتُ جَنْبِي، وَبِكَ أَرْفَعُهُ، فَإِنْ أَمْسَكْتَ نَفْسِي فَارْحَمْهَا، وَإِنْ أَرْسَلْتَهَا فَاحْفَظْهَا بِمَا تَحْفَظُ بِهِ عِبَادَكَ الصَّالِحِينَ»', n: 1, l: 'مرة واحدة', s: 'متفق عليه' },
+      { c: 'sleep', x: '«اللَّهُمَّ قِنِي عَذَابَكَ يَوْمَ تَبْعَثُ عِبَادَكَ»', n: 3, l: '٣ مرات', s: 'رواه أبو داود والترمذي' },
+      { c: 'sleep', x: '«بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا»', n: 1, l: 'مرة واحدة', s: 'رواه البخاري' },
+      { c: 'sleep', x: '«سُبْحَانَ اللَّهِ (٣٣)، وَالْحَمْدُ لِلَّهِ (٣٣)، وَاللَّهُ أَكْبَرُ (٣٤)»', n: 1, l: 'عند النوم', s: 'متفق عليه', v: 'خير لكما من خادم.' },
+
+      // ════ أدعية القلق والأرق ════
+      { c: 'insomnia', x: '«أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ غَضَبِهِ وَعِقَابِهِ، وَشَرِّ عِبَادِهِ، وَمِنْ هَمَزَاتِ الشَّيَاطِينِ وَأَنْ يَحْضُرُونِ»', n: 1, l: 'مرة واحدة', s: 'رواه أبو داود والترمذي' },
+      { c: 'insomnia', x: '«اللَّهُمَّ رَبَّ السَّمَاوَاتِ السَّبْعِ وَمَا أَظَلَّتْ، وَرَبَّ الأَرَضِينَ وَمَا أَقَلَّتْ، وَرَبَّ الشَّيَاطِينِ وَمَا أَضَلَّتْ، كُنْ لِي جَارًا مِنْ شَرِّ خَلْقِكَ كُلِّهِمْ جَمِيعًا»', n: 1, l: 'مرة واحدة', s: 'رواه الترمذي الطبراني' },
+
+      // ════ لبس الثوب ════
+      { c: 'dress', x: '«الْحَمْدُ لِلَّهِ الَّذِي كَسَانِي هَذَا (الثَّوْبَ) وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلاَ قُوَّةٍ»', n: 1, l: 'مرة واحدة', s: 'رواه أبو داود' },
+      { c: 'dress', x: '«اللَّهُمَّ لَكَ الْحَمْدُ أَنْتَ كَسَوْتَنِيهِ، أَسْأَلُكَ مِنْ خَيْرِهِ وَخَيْرِ مَا صُنِعَ لَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّهِ وَشَرِّ مَا صُنِعَ لَهُ»', n: 1, l: 'عند لبس ثوب جديد', s: 'رواه أبو داود والترمذي' },
+
+      // ════ الخلاء ════
+      { c: 'toilet', x: '«بِسْمِ اللَّهِ، اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ»', n: 1, l: 'عند الدخول', s: 'متفق عليه' },
+      { c: 'toilet', x: '«غُفْرَانَكَ»', n: 1, l: 'عند الخروج', s: 'رواه أصحاب السنن' },
+
+      // ════ الوضوء ════
+      { c: 'wudu', x: '«بِسْمِ اللَّهِ»', n: 1, l: 'قبل الوضوء', s: 'رواه أبو داود' },
+      { c: 'wudu', x: '«أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ، اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ»', n: 1, l: 'بعد الوضوء', s: 'رواه الترمذي', v: 'فُتحت له أبواب الجنة الثمانية يدخل من أيها شاء.' },
+
+      // ════ المنزل ════
+      { c: 'home', x: '«بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ، وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ»', n: 1, l: 'عند الخروج', s: 'رواه أبو داود', v: 'يُقال له: كُفِيتَ وَوُقِيتَ وَهُدِيتَ.' },
+      { c: 'home', x: '«بِسْمِ اللَّهِ وَلَجْنَا، وَبِسْمِ اللَّهِ خَرَجْنَا، وَعَلَى اللَّهِ رَبِّنَا تَوَكَّلْنَا» ثم يسلم على أهله.', n: 1, l: 'عند الدخول', s: 'رواه أبو داود' },
+
+      // ════ الذهاب إلى المسجد ════
+      { c: 'walk', x: '«اللَّهُمَّ اجْعَلْ فِي قَلْبِي نُورًا، وَفِي لِسَانِي نُورًا، وَفِي سَمْعِي نُورًا، وَفِي بَصَرِي نُورًا، وَمِنْ فَوْقِي نُورًا، وَمِنْ تَحْتِي نُورًا، وَعَنْ يَمِينِي نُورًا، وَعَنْ شِمَالِي نُورًا، وَمِنْ أَمَامِي نُورًا، وَمِنْ خَلْفِي نُورًا، وَاجْعَلْ فِي نَفْسِي نُورًا، وَأَعْظِمْ لِي نُورًا»', n: 1, l: 'مرة واحدة', s: 'متفق عليه' },
+
+      // ════ دخول الخروج من المسجد ════
+      { c: 'mosque', x: '«أَعُوذُ بِاللَّهِ الْعَظِيمِ، وَبِوَجْهِهِ الْكَرِيمِ، وَسُلْطَانِهِ الْقَدِيمِ، مِنَ الشَّيْطَانِ الرَّجِيمِ، [بِسْمِ اللَّهِ وَالصَّلاَةُ وَالسَّلاَمُ عَلَى رَسُولِ اللَّهِ] اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ»', n: 1, l: 'عند الدخول', s: 'رواه مسلم وأبو داود' },
+      { c: 'mosque', x: '«بِسْمِ اللَّهِ وَالصَّلاَةُ وَالسَّلاَمُ عَلَى رَسُولِ اللَّهِ، اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ، اللَّهُمَّ اعْصِمْنِي مِنَ الشَّيْطَانِ الرَّجِيمِ»', n: 1, l: 'عند الخروج', s: 'رواه مسلم وابن ماجه' },
+
+      // ════ الأذان ════
+      { c: 'adhan', x: 'يقول مثل ما يقول المؤذن إلا في «حَيَّ عَلَى الصَّلاَةِ» و«حَيَّ عَلَى الْفَلاَحِ» فيقول: «لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ»', n: 1, l: 'مع المؤذن', s: 'متفق عليه' },
+      { c: 'adhan', x: '«وَأَنَا أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ، رَضِيتُ بِاللَّهِ رَبًّا وَبِمُحَمَّدٍ رَسُولاً وَبالإِسْلاَمِ دِينًا» (يقولها عقب تشهد المؤذن)', n: 1, l: 'أثناء الأذان', s: 'رواه مسلم' },
+      { c: 'adhan', x: '«اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ، وَالصَّلاَةِ الْقَائِمَةِ، آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ، وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ»', n: 1, l: 'بعد الأذان والصلاة على النبي', s: 'رواه البخاري', v: 'حلت له شفاعتي يوم القيامة.' },
+
+      // ════ أذكار بعد الصلاة المكتوبة ════
+      { c: 'after', x: '«أَسْتَغْفِرُ اللَّهَ (ثَلاَثًا)، اللَّهُمَّ أَنْتَ السَّلاَمُ وَمِنْكَ السَّلاَمُ، تَبَارَكْتَ يَا ذَا الْجَلاَلِ وَالإِكْرَامِ»', n: 1, l: 'مرة واحدة', s: 'رواه مسلم' },
+      { c: 'after', x: '«لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، اللَّهُمَّ لاَ مَانِعَ لِمَا أَعْطَيْتَ، وَلاَ مُعْطِيَ لِمَا مَنَعْتَ، وَلاَ يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ»', n: 1, l: 'مرة واحدة', s: 'متفق عليه' },
+      { c: 'after', x: '«سُبْحَانَ اللَّهِ (٣٣)، وَالْحَمْدُ لِلَّهِ (٣٣)، وَاللَّهُ أَكْبَرُ (٣٣)، ثُمَّ يَقُولُ تَمَامَ الْمِائَةِ: لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ»', n: 1, l: 'مائة تسبيحة', s: 'رواه مسلم', v: 'غُفرت خطاياه وإن كانت مثل زبد البحر.' },
+      { c: 'after', q: 1, x: 'قراءة آية الكرسي: ﴿اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ...﴾ ورسائل الإخلاص والفلق والناس (مرة بعد كل صلاة، وثلاثاً بعد الفجر والمغرب)', n: 1, l: 'بعد كل صلاة', s: 'رواه النسائي وأبو داود', v: 'لم يمنعه من دخول الجنة إلا أن يموت.' },
+
+      // ════ دعاء الاستفتاح ════
+      { c: 'istiftah', x: '«سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، وَتَبَارَكَ اسْمُكَ، وَتَعَالَى جَدُّكَ، وَلاَ إِلَهَ غَيْرُكَ»', n: 1, l: 'مرة واحدة', s: 'رواه أصحاب السنن' },
+      { c: 'istiftah', x: '«اللَّهُمَّ بَاعِدْ بَيْنِي وَبَيْنَ خَطَايَايَ كَمَا بَاعَدْتَ بَيْنَ الْمَشْرِقِ وَالْمَغْرِبِ، اللَّهُمَّ نَقِّنِي مِنْ خَطَايَايَ كَمَا يُنَقَّى الثَّوْبُ الأَبْيَضُ مِنَ الدَّنَسِ، اللَّهُمَّ اغْسِلْنِي مِنْ خَطَايَايَ بِالثَّلْجِ وَالْمَاءِ وَالْبَرَدِ»', n: 1, l: 'مرة واحدة', s: 'متفق عليه' },
+
+      // ════ الركوع والسجود والتشهد ════
+      { c: 'ruku', x: '«سُبْحَانَ رَبِّيَ الْعَظِيمِ» (في الركوع)', n: 3, l: '٣ مرات', s: 'رواه أصحاب السنن' },
+      { c: 'ruku', x: '«سُبْحَانَكَ اللَّهُمَّ رَبَّنَا وَبِحَمْدِكَ اللَّهُمَّ اغْفِرْ لِي» (في الركوع والسجود)', n: 1, l: 'مرة واحدة', s: 'متفق عليه' },
+      { c: 'ruku', x: '«سُبْحَانَ رَبِّيَ الأَعْلَى» (في السجود)', n: 3, l: '٣ مرات', s: 'رواه أصحاب السنن' },
+      { c: 'ruku', x: '«التَّحِيَّاتُ لِلَّهِ، وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلاَمُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، السَّلاَمُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ»', n: 1, l: 'التشهد', s: 'متفق عليه' },
+
+      // ════ المطر والرياح والرعد ════
+      { c: 'rain', x: '«اللَّهُمَّ صَيِّبًا نَافِعًا»', n: 1, l: 'عند نزول المطر', s: 'رواه البخاري' },
+      { c: 'rain', x: '«مُطِرْنَا بِفَضْلِ اللَّهِ وَرَحْمَتِهِ»', n: 1, l: 'بعد نزول المطر', s: 'متفق عليه' },
+      { c: 'rain', x: '«اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا، وَخَيْرَ مَا فِيهَا، وَخَيْرَ مَا أُرْسِلَتْ بِهِ، وَأَعُوذُ بِكَ مِنْ شَرِّهَا، وَشَرِّ مَا فِيهَا، وَشَرِّ مَا أُرْسِلَتْ بِهِ»', n: 1, l: 'عند هبوب الريح', s: 'رواه مسلم' },
+      { c: 'rain', x: '«سُبْحَانَ الَّذِي يُسَبِّحُ الرَّعْدُ بِحَمْدِهِ وَالْمَلاَئِكَةُ مِنْ خِيفَتِهِ»', n: 1, l: 'عند سماع الرعد', s: 'رواه مالك في الموطأ' },
+
+      // ════ أذكار السفر ════
+      { c: 'travel', x: '«اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ، اللَّهُمَّ إِنَّا نَسْأَلُكَ فِي سَفَرِنَا هَذَا الْبِرَّ وَالتَّقْوَى، وَمِنَ الْعَمَلِ مَا تَرْضَى...»', n: 1, l: 'دعاء السفر', s: 'رواه مسلم' },
+      { c: 'travel', x: '«آيِبُونَ، تَائِبُونَ، عَابِدُونَ، لِرَبِّنَا حَامِدُونَ»', n: 1, l: 'عند الرجوع من السفر', s: 'رواه مسلم' },
+
+      // ════ الطعام والشراب ════
+      { c: 'food', x: '«بِسْمِ اللَّهِ» (فإذا نسي في أوله فليقل: «بِسْمِ اللَّهِ فِي أَوَّلِهِ وَآخِرِهِ»)', n: 1, l: 'قبل الطعام', s: 'رواه الترمذي' },
+      { c: 'food', x: '«الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا، وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلاَ قُوَّةٍ»', n: 1, l: 'بعد الطعام', s: 'رواه أصحاب السنن', v: 'غُفر له ما تقدم من ذنبه.' },
+
+      // ════ المريض وعيادة المريض ════
+      { c: 'sick', x: '«لاَ بَأْسَ طَهُورٌ إِنْ شَاءَ اللَّهُ»', n: 1, l: 'عند عيادة المريض', s: 'رواه البخاري' },
+      { c: 'sick', x: '«أَسْأَلُ اللَّهَ الْعَظِيمَ رَبَّ الْعَرْشِ الْعَظِيمِ أَنْ يَشْفِيَكَ»', n: 7, l: '٧ مرات', s: 'رواه الترمذي وأبو داود', v: 'إلا عافاه الله.' },
+      { c: 'sick', x: 'يضع يده على الذي يؤلمه من جسده ويقول: «بِسْمِ اللَّهِ» (ثلاثاً)، ويقول (سبع مرات): «أَعُوذُ بِاللَّهِ وَقُدْرَتِهِ مِنْ شَرِّ مَا أَجِدُ وَأُحَاذِرُ»', n: 7, l: '٧ مرات', s: 'رواه مسلم' },
+
+      // ════ الهم والحزن والكرب ════
+      { c: 'worry', x: '«لاَ إِلَهَ إِلاَّ اللَّهُ الْعَظِيمُ الْحَلِيمُ، لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ، لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ السَّمَوَاتِ وَرَبُّ الأَرْضِ وَرَبُّ الْعَرْشِ الْكَرِيمِ»', n: 1, l: 'دعاء الكرب', s: 'متفق عليه' },
+      { c: 'worry', x: '«اللَّهُمَّ رَحْمَتَكَ أَرْجُو فَلاَ تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ، وَأَصْلِحْ لِي شَأْنِي كُلَّهُ لاَ إِلَهَ إِلاَّ أَنْتَ»', n: 1, l: 'مرة واحدة', s: 'رواه أبو داود' },
+      { c: 'worry', x: '«لاَ إِلَهَ إِلاَّ أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ»', n: 1, l: 'دعاء ذي النون', s: 'رواه الترمذي', v: 'لم يدع بها رجل مسلم في شيء قط إلا استجاب الله له.' },
+
+      // ════ ذكر الغضب ════
+      { c: 'anger', x: '«أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ»', n: 1, l: 'عند الغضب', s: 'متفق عليه', v: 'يذهب عنه ما يجد.' },
+
+      // ════ دعاء الاستخارة ════
+      { c: 'istikhara', x: '«اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ، فَإِنَّكَ تَقْدِرُ وَلاَ أَقْدِرُ، وَتَعْلَمُ وَلاَ أَعْلَمُ، وَأَنْتَ عَلاَّمُ الْغُيُوبِ، اللَّهُمَّ إِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الأَمْرَ (وَيُسَمِّي حَاجَتَهُ) خَيْرٌ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي...»', n: 1, l: 'صلاة الاستخارة', s: 'رواه البخاري' },
+
+      // ════ أذكار الحج والعمرة ════
+      { c: 'hajj', x: '«لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لاَ شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكُ، لاَ شَرِيكَ لَكَ»', n: 1, l: 'التلبية', s: 'متفق عليه' },
+      { c: 'hajj', x: '«اللهُ أَكْبَرُ» (كلما أتى الحجر الأسود في الطواف)', n: 7, l: 'عند الحجر الأسود', s: 'رواه البخاري' },
+      { c: 'hajj', x: '«رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ» (بين الركن اليماني والحجر الأسود)', n: 1, l: 'في الطواف', s: 'رواه أبو داود' },
+
+      // ════ الجنازة والتعزية ════
+      { c: 'funeral', x: '«إِنَّ لِلَّهِ مَا أَخَذَ، وَلَهُ مَا أَعْطَى، وَكُلُّ شَيْءٍ عِنْدَهُ بِأَجَلٍ مُسَمًّى... فَلْتَصْبِرْ وَلْتَحْتَسِبْ»', n: 1, l: 'عند التعزية', s: 'متفق عليه' },
+      { c: 'funeral', x: '«اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ، وَعَافِهِ وَاعْفُ عَنْهُ، وَأَكْرِمْ نُزُلَهُ، وَوَسِّعْ مُدْخَلَهُ، وَاغْسِلْهُ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ...»', n: 1, l: 'الدعاء للميت في الصلاة', s: 'رواه مسلم' },
+
+      // ════ فضل الصلاة على النبي ════
+      { c: 'salawat', x: '«اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ، اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ»', n: 10, l: '١٠ مرات صباحاً ومساءً', s: 'متفق عليه', v: 'من صلى عليّ حين يصبح عشراً وحين يمسي عشراً حلت له شفاعتي يوم القيامة.' },
+
+      // ════ أذكار متفرقة ════
+      { c: 'misc', x: '«سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، سُبْحَانَ اللَّهِ الْعَظِيمِ»', n: 100, l: '١٠٠ مرة', s: 'متفق عليه', v: 'كلمتان خفيفتان على اللسان، ثقيلتان في الميزان، حبيبتان إلى الرحمن.' },
+      { c: 'misc', x: '«لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ»', n: 1, l: 'كثرة التكرار', s: 'متفق عليه', v: 'كنز من كنز الجنة.' },
+      { c: 'misc', x: '«سُبْحَانَ اللَّهِ، وَالْحَمْدُ لِلَّهِ، وَلاَ إِلَهَ إِلاَّ اللَّهُ، وَاللَّهُ أَكْبَرُ»', n: 1, l: 'مرة واحدة', s: 'رواه مسلم', v: 'أحب الكلام إلى الله.' }
+    ];
+
+    var ICONS = {
+      sun: '<circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M5 5l1.7 1.7M17.3 17.3 19 19M19 5l-1.7 1.7M6.7 17.3 5 19"/>',
+      moon: '<path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/>',
+      wake: '<path d="M3 18h18M7.5 18a4.5 4.5 0 0 1 9 0M12 8.5V5.5M5.8 10.8l1.6 1.6M18.2 10.8l-1.6 1.6M10 5.5l2-2.2 2 2.2"/>',
+      sleep: '<path d="M16.5 15.5A6.5 6.5 0 0 1 8.5 7.5 6.5 6.5 0 1 0 16.5 15.5Z"/>',
+      insomnia: '<path d="M15.5 15.5A5.5 5.5 0 0 1 9 9a5.5 5.5 0 1 0 6.5 6.5Z"/>',
+      dress: '<path d="M8.5 4 4 7l2 3 2-1v11h8V9l2 1 2-3-4.5-3a3.5 3.5 0 0 1-7 0Z"/>',
+      door: '<path d="M6 21V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v17M4 21h16"/>',
+      drop: '<path d="M12 3s6 6.6 6 11a6 6 0 0 1-12 0c0-4.4 6-11 6-11Z"/>',
+      house: '<path d="m4 11 8-7 8 7M6 9.5V20h12V9.5M10 20v-5h4v5"/>',
+      road: '<path d="M7.5 21 10 3M16.5 21 14 3"/>',
+      mosque: '<path d="M3 21h18M5.5 21v-7c0-3.9 2.9-6.5 6.5-6.5s6.5 2.6 6.5 6.5v7"/>',
+      adhan: '<path d="M9 21h6M10 21V9.5l2-4.5 2 4.5V21"/>',
+      beads: '<circle cx="12" cy="11" r="7" stroke-dasharray="0.4 4" stroke-width="2.6"/>',
+      book: '<path d="M12 6.5C10 5 7 4.5 4 4.5v14c3 0 6 .5 8 2 2-1.5 5-2 8-2v-14c-3 0-6 .5-8 2ZM12 6.5v14"/>',
+      mihrab: '<path d="M5.5 21V10.5a6.5 6.5 0 0 1 13 0V21"/>',
+      rain: '<path d="M7 14.5a4.5 4.5 0 1 1 .9-8.9A5.5 5.5 0 0 1 18.5 7.5 4 4 0 0 1 17 14.5"/>',
+      compass: '<circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/>',
+      food: '<path d="M4 12.5a8 8 0 0 0 16 0Z"/>',
+      heart: '<path d="M12 20s-7-4.4-9-8.8A5 5 0 0 1 12 8a5 5 0 0 1 9 3.2C19 15.6 12 20 12 20Z"/>',
+      cloudsun: '<circle cx="8.5" cy="7.5" r="2.8"/><path d="M20 19.5a3.8 3.8 0 0 0-3.8-6 4.6 4.6 0 0 0-8.7 1.6"/>',
+      flame: '<path d="M12 3s5 4.2 5 9a5 5 0 0 1-10 0c0-2 1-3.6 2-4.6"/>',
+      star8: '<rect x="7" y="7" width="10" height="10"/><rect x="7" y="7" width="10" height="10" transform="rotate(45 12 12)"/>',
+      kaaba: '<rect x="5" y="6.5" width="14" height="13.5" rx="1"/>',
+      crescent: '<path d="M14.5 11.5A5 5 0 0 1 9.5 6.5a5 5 0 1 0 5 5Z"/>',
+      salawat: '<rect x="7.5" y="7.5" width="9" height="9"/><circle cx="12" cy="12" r="1.6"/>'
+    };
+
+    function svgIcon(name, size) {
+      return '<svg width="' + (size || 22) + '" height="' + (size || 22) + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">' + (ICONS[name] || ICONS.beads) + '</svg>';
+    }
+
+    var $ = function (s) { return document.querySelector(s) };
+    var $$ = function (s) { return Array.prototype.slice.call(document.querySelectorAll(s)) };
+    var store = {
+      get: function (k, d) { try { var v = localStorage.getItem('hm_' + k); return v ? JSON.parse(v) : d } catch (e) { return d } },
+      set: function (k, v) { try { localStorage.setItem('hm_' + k, JSON.stringify(v)) } catch (e) { } },
+      del: function (k) { try { localStorage.removeItem('hm_' + k) } catch (e) { } }
+    };
+
+    function arNum(n) { try { return Number(n).toLocaleString('ar-EG') } catch (e) { return String(n) } }
+    function vibrate(ms) { try { if (navigator.vibrate) navigator.vibrate(ms) } catch (e) { } }
+    function toast(msg) {
+      var t = $('#toast'); t.textContent = msg; t.classList.add('show');
+      clearTimeout(t._tm); t._tm = setTimeout(function () { t.classList.remove('show') }, 2200);
+    }
+    function ornament(t) {
+      return t.replace(/«|»|﴿|﴾|۞/g, function (m) { return '<i class="orn">' + m + '</i>' });
+    }
+    function normalize(s) {
+      return s.replace(/[\u064B-\u0652\u0640]/g, '').replace(/[أإآ]/g, 'ا').replace(/ة/g, 'ه').replace(/ى/g, 'ي').toLowerCase();
+    }
+    function catName(id) { for (var i = 0; i < CATEGORIES.length; i++)if (CATEGORIES[i].id === id) return CATEGORIES[i].name; return '' }
+    function itemsOf(id) { return ADHKAR.filter(function (a) { return a.c === id }) }
+
+    function switchScreen(name) {
+      $$('.screen').forEach(function (s) { s.classList.toggle('active', s.id === 'scr-' + name) });
+      $$('#tabbar button').forEach(function (b) { b.classList.toggle('active', b.dataset.scr === name) });
+      $('#tabbar').classList.toggle('hide', name === 'list');
+      window.scrollTo(0, 0);
+      observeReveals();
+    }
+    $$('#tabbar button').forEach(function (b) {
+      b.addEventListener('click', function () { switchScreen(b.dataset.scr) });
+    });
+
+    var io = null;
+    if ('IntersectionObserver' in window) {
+      io = new IntersectionObserver(function (es) {
+        es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target) } });
+      }, { threshold: .06 });
+    }
+    function observeReveals() {
+      $$('.reveal:not(.in)').forEach(function (el, i) {
+        el.style.transitionDelay = (i % 8) * 45 + 'ms';
+        if (io) io.observe(el); else el.classList.add('in');
+      });
+    }
+
+    var DAILY_TEXTS = [
+      '﴿فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلَا تَكْفُرُونِ﴾',
+      '﴿أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ﴾',
+      '﴿وَالذَّاكِرِينَ اللَّهَ كَثِيرًا وَالذَّاكِرَاتِ أَعَدَّ اللَّهُ لَهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًا﴾'
+    ];
+    function todayKey() { return new Date().toISOString().slice(0, 10) }
+    function getDaily() {
+      var d = store.get('daily', null);
+      if (!d || d.d !== todayKey()) { d = { d: todayKey(), total: 0 }; store.set('daily', d) }
+      return d;
+    }
+
+    function renderHome() {
+      var now = new Date(), h = now.getHours();
+      var doy = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / 864e5);
+      $('#dailyAyah').textContent = DAILY_TEXTS[doy % DAILY_TEXTS.length];
+      try {
+        $('#hijriChip').textContent = new Intl.DateTimeFormat('ar-SA-u-ca-islamic-umalqura', { day: 'numeric', month: 'long', year: 'numeric' }).format(now);
+      } catch (e) { $('#hijriChip').textContent = 'التقويم الهجري' }
+      $('#greetChip').textContent = (h >= 5 && h < 12) ? '☀ صباح الخير' : (h >= 12 && h < 21) ? '🌤 مساء الخير' : '🌙 طابت ليلتك';
+      var d = getDaily(), dc = $('#dailyChip');
+      if (d.total > 0) { dc.style.display = ''; dc.textContent = '✓ أنجزت اليوم ' + arNum(d.total) + ' ذكرًا' } else dc.style.display = 'none';
+
+      var mNow = (h >= 4 && h < 12), eNow = (h >= 15 || h < 4);
+      var feat = [
+        { id: 'sabah', name: 'أذكار الصباح', desc: 'من الفجر إلى الضحى', icon: 'sun', now: mNow },
+        { id: 'masa', name: 'أذكار المساء', desc: 'من العصر إلى الليل', icon: 'moon', now: eNow }
+      ];
+      $('#features').innerHTML = feat.map(function (f) {
+        return '<button class="feature reveal' + (f.now ? ' now' : '') + '" data-cat="' + f.id + '">'
+          + (f.now ? '<span class="badge-now">وقتها الآن</span>' : '')
+          + '<span class="ficon">' + svgIcon(f.icon, 24) + '</span>'
+          + '<h3>' + f.name + '</h3><p>' + f.desc + ' • ' + arNum(itemsOf(f.id).length) + ' ذكرًا</p>'
+          + '<span class="go">‹</span></button>';
+      }).join('');
+      $$('#features .feature').forEach(function (b) {
+        b.addEventListener('click', function () { openCategory(b.dataset.cat) });
+      });
+
+      var last = store.get('last', null), rc = $('#resumeChip');
+      if (last && last.c && catName(last.c)) {
+        rc.style.display = '';
+        rc.innerHTML = '↩ متابعة القراءة: <span style="margin-inline-start:auto"><b>' + catName(last.c) + '</b>'
+          + '<small>الذكر ' + arNum(last.i + 1) + ' من ' + arNum(itemsOf(last.c).length) + '</small></span>';
+        rc.onclick = function () { openCategory(last.c, last.i, last.r) };
+      } else rc.style.display = 'none';
+
+      $('#catsGrid').innerHTML = CATEGORIES.filter(function (c) { return c.id !== 'sabah' && c.id !== 'masa' })
+        .map(function (c) {
+          return '<button class="cat reveal" data-cat="' + c.id + '">'
+            + '<span class="cicon">' + svgIcon(c.icon, 22) + '</span>'
+            + '<h4>' + c.name + '</h4>'
+            + '<span class="cnt">' + arNum(itemsOf(c.id).length) + ' ذكرًا</span></button>';
+        }).join('');
+      $$('#catsGrid .cat').forEach(function (b) {
+        b.addEventListener('click', function () { openCategory(b.dataset.cat) });
+      });
+      observeReveals();
+    }
+
+    $('#goSearch').addEventListener('click', function () {
+      switchScreen('search'); setTimeout(function () { $('#searchInput').focus() }, 350);
+    });
+
+    var RING_C = 377;
+    var state = { cat: null, items: [], idx: 0, remaining: 0, doneSet: {} };
+
+    function openCategory(id, idx, remaining) {
+      var items = itemsOf(id);
+      if (!items.length) {
+        items = [{ c: id, x: 'أذكار ' + catName(id), n: 1, l: 'مرة واحدة', s: '' }];
+      }
+      state.cat = id; state.items = items;
+      state.idx = Math.min(idx || 0, items.length - 1);
+      state.remaining = (remaining != null && remaining > 0) ? remaining : items[state.idx].n;
+      state.doneSet = {};
+      $('#donePanel').classList.remove('show');
+      renderDhikr();
+      switchScreen('list');
+      saveLast();
+    }
+
+    function saveLast() {
+      if (!state.cat) return;
+      var finished = (state.idx === state.items.length - 1 && state.remaining === 0);
+      if (finished) { store.del('last'); return }
+      store.set('last', { c: state.cat, i: state.idx, r: state.remaining });
+    }
+
+    function renderDhikr() {
+      var it = state.items[state.idx], total = state.items.length;
+      var cat = CATEGORIES.filter(function (c) { return c.id === state.cat })[0] || { name: 'الأذكار' };
+      $('#listTitle').textContent = cat.name;
+      $('#listSub').textContent = 'الذكر ' + arNum(state.idx + 1) + ' من ' + arNum(total);
+      var done = (it.n - state.remaining) / it.n;
+      $('#progFill').style.width = (((state.idx + done) / total) * 100) + '%';
+      var card = $('#dhikrCard');
+      card.classList.remove('done');
+      card.classList.toggle('quran', !!it.q);
+      var tag = $('#dhikrTag');
+      if (it.q) { tag.style.display = ''; tag.textContent = 'آية' } else tag.style.display = 'none';
+      $('#dhikrText').innerHTML = ornament(it.x);
+      $('#dhikrCount').textContent = '⟳ ' + it.l;
+      $('#dhikrSource').textContent = it.s || '';
+      var v = $('#dhikrVirtue');
+      if (it.v) { v.style.display = ''; v.innerHTML = '<b>الفضل: </b>' + it.v } else v.style.display = 'none';
+      renderCounter();
+      $('#btnPrev').disabled = (state.idx === 0);
+      $('#counterBtn').classList.remove('done');
+    }
+
+    function renderCounter() {
+      var it = state.items[state.idx];
+      $('#counterNum').textContent = arNum(state.remaining);
+      $('#counterSub').textContent = 'من ' + arNum(it.n);
+      var prog = (it.n - state.remaining) / it.n;
+      $('#ringProg').style.strokeDashoffset = RING_C * (1 - prog);
+    }
+
+    function tapCount() {
+      var it = state.items[state.idx];
+      if (state.remaining <= 0) return;
+      state.remaining--;
+      vibrate(12);
+      var p = document.createElement('span'); p.className = 'pulse';
+      $('#counterBtn').appendChild(p);
+      setTimeout(function () { p.remove() }, 600);
+      if (state.remaining === 0) {
+        $('#counterBtn').classList.add('done');
+        $('#dhikrCard').classList.add('done');
+        $('#counterNum').textContent = '✓';
+        $('#counterSub').textContent = 'اكتمل';
+        $('#progFill').style.width = (((state.idx + 1) / state.items.length) * 100) + '%';
+        vibrate(40);
+        var d = getDaily(); d.total++; store.set('daily', d);
+        state.doneSet[state.idx] = true;
+        saveLast();
+        setTimeout(function () {
+          if (state.idx < state.items.length - 1) {
+            state.idx++;
+            state.remaining = state.items[state.idx].n;
+            renderDhikr(); saveLast();
+          } else {
+            showDonePanel();
+          }
+        }, 900);
+      } else {
+        renderCounter(); saveLast();
+      }
+    }
+
+    function showDonePanel() {
+      $('#doneMsg').textContent = 'أتممتَ ' + catName(state.cat) + ' كاملة (' + arNum(state.items.length) + ' ذكرًا). نسأل الله أن يتقبّل منك صالح الأعمال.';
+      $('#donePanel').classList.add('show');
+      store.del('last');
+    }
+
+    $('#counterBtn').addEventListener('click', tapCount);
+    $('#dhikrCard').addEventListener('click', tapCount);
+    $('#btnNext').addEventListener('click', function () {
+      if (state.idx < state.items.length - 1) {
+        state.idx++; state.remaining = state.items[state.idx].n; renderDhikr(); saveLast();
+      } else showDonePanel();
+    });
+    $('#btnPrev').addEventListener('click', function () {
+      if (state.idx > 0) { state.idx--; state.remaining = state.items[state.idx].n; renderDhikr(); saveLast() }
+    });
+    $('#btnReset').addEventListener('click', function () {
+      state.remaining = state.items[state.idx].n; renderDhikr();
+      $('#counterBtn').classList.remove('done'); $('#dhikrCard').classList.remove('done');
+    });
+    $('#btnBack').addEventListener('click', function () {
+      $('#donePanel').classList.remove('show'); renderHome(); switchScreen('home');
+    });
+    $('#doneHome').addEventListener('click', function () {
+      $('#donePanel').classList.remove('show'); renderHome(); switchScreen('home');
+    });
+    $('#doneAgain').addEventListener('click', function () {
+      $('#donePanel').classList.remove('show'); openCategory(state.cat, 0);
+    });
+
+    $('#btnShare').addEventListener('click', function () {
+      var it = state.items[state.idx]; if (!it) return;
+      var txt = it.x + '\n\n📿 ' + it.l + (it.s ? '\n' + it.s : '') + '\n— تطبيق حصن المسلم';
+      if (navigator.share) {
+        navigator.share({ title: 'حصن المسلم', text: txt }).catch(function () { });
+      } else if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(txt).then(function () { toast('تم نسخ الذكر ✓') });
+      }
+    });
+
+    var FS_ORDER = ['s', 'm', 'l', 'xl'];
+    function setFS(f) {
+      document.body.dataset.fs = f; store.set('fs', f); syncSettings();
+    }
+    $('#btnFontUp').addEventListener('click', function () {
+      var i = FS_ORDER.indexOf(document.body.dataset.fs);
+      setFS(FS_ORDER[Math.min(i + 1, 3)]);
+    });
+    $('#btnFontDn').addEventListener('click', function () {
+      var i = FS_ORDER.indexOf(document.body.dataset.fs);
+      setFS(FS_ORDER[Math.max(i - 1, 0)]);
+    });
+
+    $('#searchInput').addEventListener('input', function () {
+      var q = normalize(this.value.trim());
+      var box = $('#searchResults');
+      if (!q) { box.innerHTML = '<p class="empty">ابحث في نصوص جميع الأذكار<br/>مثال: «الاستغفار» أو «العافية»</p>'; return }
+      var hits = [];
+      ADHKAR.forEach(function (a, gi) {
+        if (normalize(a.x).indexOf(q) > -1 || normalize(catName(a.c)).indexOf(q) > -1)
+          hits.push({ a: a, gi: gi });
+      });
+      if (!hits.length) { box.innerHTML = '<p class="empty">لا توجد نتائج مطابقة</p>'; return }
+      box.innerHTML = hits.slice(0, 60).map(function (h) {
+        var snip = h.a.x.length > 110 ? h.a.x.slice(0, 110) + '…' : h.a.x;
+        return '<button class="res-item" data-gi="' + h.gi + '">'
+          + '<p class="snip">' + ornament(snip) + '</p>'
+          + '<div class="rmeta"><span class="rchip g">' + catName(h.a.c) + '</span>'
+          + '<span class="rchip d">⟳ ' + h.a.l + '</span></div></button>';
+      }).join('');
+      $$('#searchResults .res-item').forEach(function (b) {
+        b.addEventListener('click', function () {
+          var gi = +b.dataset.gi, target = ADHKAR[gi];
+          var list = itemsOf(target.c), idx = list.indexOf(target);
+          openCategory(target.c, idx < 0 ? 0 : idx);
+        });
+      });
+    });
+
+    var PHRASES = ['سُبْحَانَ اللَّهِ', 'الْحَمْدُ لِلَّهِ', 'اللَّهُ أَكْبَرُ', 'لَا إِلَهَ إِلَّا اللَّهُ', 'أَسْتَغْفِرُ اللَّهَ'];
+    var TARGETS = [33, 100, 0];
+    var tState = { count: 0, target: 33, phrase: 0, total: 0 };
+
+    function renderTasbihChips() {
+      $('#phraseChips').innerHTML = PHRASES.map(function (p, i) {
+        return '<button class="chip' + (i === tState.phrase ? ' on' : '') + '" data-i="' + i + '">' + p + '</button>';
+      }).join('');
+      $('#targetChips').innerHTML = TARGETS.map(function (t) {
+        return '<button class="chip sm' + (t === tState.target ? ' on' : '') + '" data-t="' + t + '">'
+          + (t === 0 ? 'بدون حدّ' : 'الهدف ' + arNum(t)) + '</button>';
+      }).join('');
+      $$('#phraseChips .chip').forEach(function (b) {
+        b.addEventListener('click', function () { tState.phrase = +b.dataset.i; tState.count = 0; renderTasbihChips(); renderTasbih() });
+      });
+      $$('#targetChips .chip').forEach(function (b) {
+        b.addEventListener('click', function () { tState.target = +b.dataset.t; tState.count = 0; renderTasbihChips(); renderTasbih() });
+      });
+    }
+
+    function renderTasbih() {
+      $('#tNum').textContent = arNum(tState.count);
+      $('#tSub').textContent = tState.target ? 'من ' + arNum(tState.target) : PHRASES[tState.phrase];
+      var prog = tState.target ? Math.min(tState.count / tState.target, 1) : 0;
+      $('#tRing').style.strokeDashoffset = RING_C * (1 - prog);
+      $('#tTotal').textContent = arNum(tState.total);
+    }
+
+    $('#tasbihBtn').addEventListener('click', function () {
+      tState.count++; tState.total++; vibrate(10);
+      var p = document.createElement('span'); p.className = 'pulse';
+      this.appendChild(p); setTimeout(function () { p.remove() }, 600);
+      if (tState.target && tState.count === tState.target) {
+        vibrate(50); toast('أتممت ' + arNum(tState.target) + ' ' + PHRASES[tState.phrase] + ' ✓');
+      }
+      renderTasbih();
+    });
+
+    $('#tReset').addEventListener('click', function () { tState.count = 0; renderTasbih(); toast('تم التصفير') });
+
+    function setTheme(t) {
+      document.body.dataset.theme = t; store.set('theme', t);
+      $('#metaTheme').setAttribute('content', t === 'dark' ? '#083A2E' : '#F3EFE3');
+      syncSettings();
+    }
+
+    $$('#themeSeg button').forEach(function (b) {
+      b.addEventListener('click', function () { setTheme(b.dataset.t) });
+    });
+    $$('#fsSeg button').forEach(function (b) {
+      b.addEventListener('click', function () { setFS(b.dataset.f) });
+    });
+
+    function syncSettings() {
+      $$('#themeSeg button').forEach(function (b) { b.classList.toggle('on', b.dataset.t === document.body.dataset.theme) });
+      $$('#fsSeg button').forEach(function (b) { b.classList.toggle('on', b.dataset.f === document.body.dataset.fs) });
+    }
+
+    (function init() {
+      document.body.dataset.theme = store.get('theme', 'dark');
+      document.body.dataset.fs = store.get('fs', 'm');
+      $('#metaTheme').setAttribute('content', document.body.dataset.theme === 'dark' ? '#083A2E' : '#F3EFE3');
+      syncSettings();
+      renderHome();
+      renderTasbihChips();
+      renderTasbih();
+    })();
+  //]]>
+  </script>
+</body>
+
+</html>
